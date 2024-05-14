@@ -103,5 +103,5 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:cocofhu/cocofhu.github.io.git
+  repo: git@github.com:cocofhu/systemdesign.github.io
   branch: master

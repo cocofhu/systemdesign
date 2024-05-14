@@ -26,9 +26,9 @@ ssh-keygen -f github-deploy-key
 
 #### 3、配置密钥
 
-1、在 [cocofhu/systemdesign.github.io](https://github.com/cocofhu/systemdesign.github.io/settings/keys) 的 `Deploy keys` 配置刚刚得到的公钥(pub文件), `Title` 用 `HEXO_DEPLOY_PUB`。
+1、在 [cocofhu/systemdesign.github.io](https://github.com/cocofhu/systemdesign.github.io/settings/keys)的`Deploy keys`配置公钥,`Title`用 `HEXO_DEPLOY_PUB`。
 
-2、在 [cocofhu/systemdesign](https://github.com/cocofhu/systemdesign/settings/secrets/actions) 下 `New repository secret` 配置刚刚得到的私钥, `Title` 用 `HEXO_DEPLOY_PRI`。
+2、在 [cocofhu/systemdesign](https://github.com/cocofhu/systemdesign/settings/secrets/actions) 下`New repository secret`配置私钥,`Title`用 `HEXO_DEPLOY_PRI`。
 
 #### 4、配置CI
 更改复制的项目[cocofhu/systemdesign](https://github.com/cocofhu/systemdesign/blob/main/.github/workflows/main.yml)的`.github/workflows/main.yml`:

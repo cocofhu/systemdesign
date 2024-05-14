@@ -1,0 +1,24 @@
+FROM centos:7
+
+maintainer cocofhu<cocofhu@outlook.com>
+
+
+workdir /home/root
+
+run yum -y install vim
+run yum -y install git
+run yum -y install epel-release
+run yum -y install nodejs
+run yum -y install npm
+
+
+run git config --global user.email "cocofhu@outlook.com"
+run git config --global user.name "cocofhu"
+
+run npm install -g hexo-cli
+
+
+copy build.sh /home/root
+run chmod 777 /home/root/build.sh
+
+cmd /bin/bash

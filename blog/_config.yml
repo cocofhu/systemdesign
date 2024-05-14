@@ -4,8 +4,8 @@
 
 # Site
 title: "小鸟游六花"
-subtitle: "vanishment this world"
-description: '邪王真眼是最强的'
+subtitle: "这个页面用来记录一些有趣解决方案和精妙的系统设计"
+description: '有趣解决方案和精妙的系统设计'
 keywords:
 author: cocofhu
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://cocofhu.com
+url: http://solution.cocofhu.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

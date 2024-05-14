@@ -2,6 +2,11 @@ name: HEXO CI
 
 on: [push]
 
+
+env:
+  DEPLOY_REPO: cocofhu/systemdesign.github.io
+
+
 jobs:
   build:
     runs-on: ubuntu-latest

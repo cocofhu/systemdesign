@@ -76,7 +76,7 @@ jobs:
           npm install --save hexo-deployer-git
           hexo g
           # 自定义域名 配置一个CName指向systemdesign.github.io
-          echo "sollution.cocofhu.com" > public/CNAME
+          echo "solution.cocofhu.com" > public/CNAME
           hexo d
 
 ```

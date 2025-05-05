@@ -92,6 +92,7 @@ AllowedIPs = 10.5.1.0/24
 Endpoint = lighthouse_ip:50814 
 ```
 将PrivateKey改为第二步生成的`client1.key`的内容（节点的私钥），PublicKey改为第二步生成的`server.key.pub`的内容（对端的公钥），AllowedIPs使用`10.5.1.0/24`网段，表示`10.5.1.0/24`走这个接口， 最后将Endpoint改为lighthouse的公网IP（注意放通UDP端口）。
+另外，这里可以使用我做的[docker镜像](https://github.com/cocofhu/wireguard-proxy)，不过配置文件请用`wg0.conf`, 具体参看项目说明。
 
 ### 六、测试
 在局域网节点执行ping命令：

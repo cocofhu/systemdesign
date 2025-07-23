@@ -30,6 +30,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          npm config set registry http://mirrors.cloud.tencent.com/npm/
           npm i -g hexo-cli
           npm i
 
